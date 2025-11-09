@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 df=pd.read_excel(
     
-    io="Helpdesk.xlsx",engine="openpyxl",sheet_name="Sheet1",skiprows=0,usecols="A:AN",nrows=100
+  "Helpdesk.xlsx",engine="openpyxl",sheet_name="Sheet1",skiprows=0,usecols="A:AN",nrows=100
     
     )
 
