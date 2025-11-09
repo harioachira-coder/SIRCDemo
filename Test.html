@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Issuance Request Details</title>
+    <style>
+        /* Base Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f9;
+            padding: 20px;
+            color: #333;
+            /* Flexbox for vertical and horizontal centering of the content box */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: flex-start; /* Align to the top of the viewport */
+            min-height: 100vh; /* Ensure body takes full height of the viewport */
+            margin: 180;
+        }
+
+        /* Container (The Box) Styling - Centered */
+        .container {
+            max-width: 600px;
+            width: 50%; /* Important for centering the table inside */
+            margin: 50px 0; /* Add margin to the top and bottom of the box */
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Stronger shadow for the box effect */
+            border: 1px solid #e0e0e0; /* Subtle border for definition */
+        }
+        
+        h2 {
+            color: #81659c;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #81659c;
+            margin-bottom: 30px;
+        }
+
+        /* Table Styling */
+        .details-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .details-table th, .details-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .details-table th {
+            background-color: #e9f0f7;
+            color: #81659c;
+            font-weight: 600;
+            width: 35%; 
+        }
+        .details-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .details-table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Footer/Manager signature area */
+        .footer-note {
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #ccc;
+            text-align: right;
+            font-style: italic;
+            color: #666;
+        }
+        .footer-note strong {
+            display: block;
+            font-style: normal;
+            font-weight: bold;
+            color: #81659c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Asset Issuance Request Details</h2>
+
+    <p style="text-align: center; font-size: 1em; margin-bottom: 30px;">
+         Dear, New Asset Request for Equipment,
+        <br>
+        Kindly prepare the below asset for issuing as the earliest.
+    </p>
+
+    <table class="details-table">
+        <tr>
+            <th>Asset #</th>
+            <td>**ABC-987-DEF-654**</td>
+        </tr>
+        <tr>
+            <th>Employee Name</th>
+            <td>**Ahmed Al-Mansoori**</td>
+        </tr>
+        <tr>
+            <th>User ID (SAP)</th>
+            <td>U123456</td>
+        </tr>
+        <tr>
+            <th>User Division</th>
+            <td>IT Infrastructure</td>
+        </tr>
+        <tr>
+            <th>User Company</th>
+            <td>Global Tech Services Ltd.</td>
+        </tr>
+        <tr>
+            <th>User Iqama / ID</th>
+            <td>1234567890</td>
+        </tr>
+    </table>
+
+    <div class="footer-note">
+        Regards
+        <strong>SD Manager</strong>
+    </div>
+
+</div>
+
+</body>
+</html>
