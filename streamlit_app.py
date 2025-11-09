@@ -2,11 +2,6 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 import numpy as np
-df=pd.read_excel(
-    
-  "Helpdesk.xlsx",engine="openpyxl",sheet_name="Sheet1",skiprows=0,usecols="A:AN",nrows=100
-    
-    )
 
 Slider=st.slider("Select a value",0,100,10)
 st.write("Slider value:",Slider)
