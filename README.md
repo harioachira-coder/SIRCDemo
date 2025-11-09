@@ -1,7 +1,5 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 🏷️ Streamlit App Starter Kit 
+
 
 Description of the app ...
 
